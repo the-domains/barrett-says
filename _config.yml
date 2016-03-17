@@ -1,14 +1,26 @@
-layout_spectrum: 1
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
-  saturation: 0.09003085
-  lightness: 0.6892011
+  saturation: 1
   brandStrength: 0.8434994
-  rhythmicContrast: 0.584174
+  lightness: 1
   brandColors:
-    - '#E0FBFC'
-    - '#C2DFE3'
-    - '#9DB4C0'
-    - '#5C6B73'
-    - '#253237'
+    - '#B5AEA4'
+    - '#FDE2CF'
+    - '#8D5234'
+    - '#1767A4'
+    - '#C47767'
+  rhythmicContrast: 1
 typography_spectrum: 0.3796952
+layout_spectrum: 1
 name: 'Barrett Says:'
