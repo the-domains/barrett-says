@@ -4,15 +4,16 @@ collections:
       number: 15
       paginate: true
       navigable: true
-    permalink:
-      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
+    permalink:
+      path: '/:title/'
+typography_spectrum: 0.3796952
 color:
   saturation: 1
-  brandStrength: 0.8434994
+  brandStrength: 1
   lightness: 1
   brandColors:
     - '#B5AEA4'
@@ -21,6 +22,5 @@ color:
     - '#1767A4'
     - '#C47767'
   rhythmicContrast: 1
-typography_spectrum: 0.3796952
 layout_spectrum: 1
 name: 'Barrett Says:'
